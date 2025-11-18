@@ -26,6 +26,9 @@ dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
 .mvn/wrapper/maven-wrapper.jar
+run.bat
+run-manual.bat
+compile.bat
 
 # IDE files
 .idea/
