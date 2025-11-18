@@ -4,7 +4,7 @@
 
 A JavaFX-based application that utilizes **SHA-256 hashing** and **HashMap data structure** for file integrity verification. This project demonstrates both cybersecurity concepts and data structures implementation by automatically storing and retrieving file hashes using a persistent HashMap.
 
-## 📊 Data Structure: HashMap
+## Data Structure: HashMap
 
 This project prominently features the **HashMap data structure** to manage file hashes:
 
@@ -86,13 +86,13 @@ This application provides two modes of operation:
 
 4. **styles.css** - Modern UI styling
 
-## 📋 Prerequisites
+## Prerequisites
 
 - **Java**: JDK 17 or higher
 - **Maven**: For dependency management and building
 - **JavaFX**: Version 21.0.1 (automatically handled by Maven)
 
-## 🏗️ Running the Project
+## Running the Project
 
 ### ⭐ Highly Recommended for running our JavaFX File Integrity Checker (IntelliJ)
 
@@ -108,8 +108,6 @@ This application provides two modes of operation:
 - Import as Maven project
 - Let the IDE download dependencies
 - Right-click `FileIntegrityChecker.java` and Run
-
-👉 **See SETUP_GUIDE.md for detailed instructions for each IDE**
 
 ### Using Maven (Command Line) - u must have Maven for this to work
 
@@ -182,7 +180,7 @@ run-manual.bat
    - ✓ **FILES ARE IDENTICAL** - Hashes match (green)
    - ✗ **FILES ARE DIFFERENT** - Hashes don't match (red)
 
-## 🎯 Use Cases
+## Use Cases
 
 1. **Verify Downloads**: Check if a downloaded file matches the publisher's hash
 2. **Detect Tampering**: Verify files haven't been modified or corrupted
@@ -190,7 +188,7 @@ run-manual.bat
 4. **Duplicate Detection**: Identify identical files with different names
 5. **Security Auditing**: Ensure system files haven't been altered
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 FileIntegrityChecker/
@@ -209,7 +207,7 @@ FileIntegrityChecker/
             └── styles.css
 ```
 
-## 🔬 Example Scenarios
+## Example Scenarios
 
 ### Scenario 1: Monitoring Important System Files
 
@@ -232,7 +230,7 @@ FileIntegrityChecker/
 2. If hashes match, backup is perfect
 3. If hashes differ, backup may be corrupted
 
-## 🎓 Educational Value
+## What our team learned?
 
 ### Data Structures Concepts Demonstrated:
 - **HashMap implementation**: Key-value storage (file path → hash)
