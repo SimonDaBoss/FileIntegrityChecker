@@ -266,10 +266,10 @@ FileIntegrityChecker/
 - The application uses Java's built-in MessageDigest implementation
 - All file types are supported (text, images, executables, archives, etc.)
 
-### Meets Requirements For
-- ✅ **Data Structures Class**: HashMap implementation with CRUD operations
-- ✅ **Cybersecurity Class**: SHA-256 hashing and integrity verification
-- ✅ **Software Engineering**: Clean OOP design, GUI development
+### Goals Met
+- ✅ **CIS 256**: HashMap Data Structure implementation with CRUD operations
+- ✅ **Cybersecurity Theme**: SHA-256 hashing and integrity verification
+- ✅ **OOP**: Clean OOP design, GUI development
 
 ## 👨‍💻 Author
 
