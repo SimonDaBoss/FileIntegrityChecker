@@ -94,7 +94,7 @@ This application provides two modes of operation:
 
 ## 🏗️ Running the Project
 
-### ⭐ RECOMMENDED: Using IntelliJ IDEA (Easiest!)
+### ⭐ Highly Recommended for running our JavaFX File Integrity Checker (IntelliJ)
 
 1. Download **IntelliJ IDEA Community Edition** (FREE): https://www.jetbrains.com/idea/download/
 2. Open the `FileIntegrityChecker` folder in IntelliJ
@@ -111,7 +111,7 @@ This application provides two modes of operation:
 
 👉 **See SETUP_GUIDE.md for detailed instructions for each IDE**
 
-### Using Maven (Command Line)
+### Using Maven (Command Line) - u must have Maven for this to work
 
 ```bash
 # Compile and run
@@ -132,7 +132,7 @@ compile.bat
 run-manual.bat
 ```
 
-**Note**: If Maven commands don't work, just use IntelliJ IDEA - it handles everything automatically!
+**Note**: If Maven commands don't work, just use IntelliJ IDEA since it makes the setup easy
 
 ## 📖 Usage Guide
 
@@ -273,13 +273,8 @@ FileIntegrityChecker/
 
 ## 👨‍💻 Author
 
-Created for CIS 256 - Cybersecurity Course
+Created for CIS 256 - Data Structures at CSM
+by Eryx, Kirill, Dylan, Simon
 
-## 📄 License
-
-This project is created for educational purposes.
-
----
-
-**Remember**: A single bit change in a file will completely change its SHA-256 hash! 🔒
+**CAUTION:**: A single bit change in a file will completely change its SHA-256 hash.
 
