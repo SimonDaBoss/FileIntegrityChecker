@@ -1,3 +1,16 @@
+# HOW TO RUN (simplified)
+
+To simplify the process of running our project, make sure you have JavaFX
+We highly recommend downloading IntelliJ and opening this project with Maven
+
+1. Download **IntelliJ IDEA Community Edition** (FREE): https://www.jetbrains.com/idea/download/
+2. Open the `FileIntegrityChecker` folder in IntelliJ
+3. Wait for Maven sync to complete (automatic)
+4. Right-click `FileIntegrityChecker.java` → **Run**
+
+Another way is manually installing JavaFX, but it is a pain and we do not encourage this unless you are comfortable with using File Explorer and configuring PATHS
+
+
 # File Integrity Checker
 
 **CIS 256 Cybersecurity Project | Data Structures: HashMap Implementation**
@@ -109,26 +122,6 @@ This application provides two modes of operation:
 - Let the IDE download dependencies
 - Right-click `FileIntegrityChecker.java` and Run
 
-### Using Maven (Command Line) - u must have Maven for this to work
-
-```bash
-# Compile and run
-mvn clean javafx:run
-
-# Package as JAR
-mvn clean package
-```
-
-### Using Batch Scripts (Windows)
-
-```bash
-# Run with Maven (if installed)
-run.bat
-
-# Manual compilation (if JavaFX SDK downloaded)
-compile.bat
-run-manual.bat
-```
 
 **Note**: If Maven commands don't work, just use IntelliJ IDEA since it makes the setup easy
 
